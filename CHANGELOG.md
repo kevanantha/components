@@ -1,5 +1,17 @@
 # @primer/components
 
+## 28.0.2
+
+### Patch Changes
+
+- [`d29741ca`](https://github.com/primer/components/commit/d29741cab4bfa4249000e5b2479e99f5aeea3189) [#1196](https://github.com/primer/components/pull/1196) Thanks [@dgreif](https://github.com/dgreif)! - Allow custom `children` in `ActionItem`. `text` and `description` can still be provided as a shortcut, but `children` is now available if you need more control over the rending of the item, without sacrificing benefits from `Item` by using `renderItem`.
+
+* [`3c13d039`](https://github.com/primer/components/commit/3c13d039466370a70ed1e0bf8c3af0860fe26702) [#1201](https://github.com/primer/components/pull/1201) Thanks [@T-Hugs](https://github.com/T-Hugs)! - Fix overlay position when using an AnchoredOverlay
+
+- [`84e3c570`](https://github.com/primer/components/commit/84e3c5706fa313eab5605f551256c0dc34a8626d) [#1194](https://github.com/primer/components/pull/1194) Thanks [@dgreif](https://github.com/dgreif)! - Handle `onAction` for `DropdownMenu` Items
+
+* [`7aeb53fe`](https://github.com/primer/components/commit/7aeb53fec23a80414f6c1db8b31c06beb2073dd2) [#1200](https://github.com/primer/components/pull/1200) Thanks [@dgreif](https://github.com/dgreif)! - Perform ActionMenu actions after overlay has closed. This allows the action to move focus if so desired, without the ActionMenu focus trap preventing focus from moving away.
+
 ## 28.0.1
 
 ### Patch Changes
